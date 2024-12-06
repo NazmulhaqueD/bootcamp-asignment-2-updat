@@ -1,0 +1,60 @@
+/* navber starts here */
+.nav-menu-container{
+    display: flex;
+    gap: 0 100px;
+}
+
+.hamburger{
+    display: none;
+}
+h1{
+    font-size: 48px;
+}
+/* navber starts here */
+
+/* banner starts here */
+.banner{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner-desc-2 button{
+    margin: 20px 0;
+}
+
+.banner-desc-2{
+    flex-direction: row;
+    margin: 20px 0;
+    align-items: center;
+    gap: 0 20px;
+}
+/* banner ends here */
+
+
+/* main starts here */
+.specialities-content{
+    grid-template-columns: auto auto auto auto;
+}
+
+/* work section starts here */
+.work-card-container{
+    grid-template-columns: auto auto auto;
+}
+
+/* service section starts here */
+.service-card-container{
+    grid-template-columns: auto auto auto auto;
+}
+/* main ends here */
+
+
+/* footer starts here */
+.footer-top{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-bottom{
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* footer ends here */
